@@ -15,8 +15,7 @@ public abstract class Product {
 			throw new IllegalArgumentException("Product name cannot be null.");
 		}
 		this.name = name;
-		this.price = price;
-		
+		this.price = price;	
 		this.taxPercent = tax;
 	}
 
