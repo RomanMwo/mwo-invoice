@@ -12,7 +12,7 @@ public class Invoice {
 	public void addProduct(Product product) {
 		products.add(product);
 	}
-
+//zmiany do dwoch ostatnich czerwonych testow
 	public void addProduct(Product product, Integer quantity) {
 		if(quantity ==  0 || quantity < 0)
 		{
